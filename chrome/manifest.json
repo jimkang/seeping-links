@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "Yet Another Bookmarklet",
+  "description": "Does some stuff.",
+  "version": "1.0.0",
+
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+
+  "background": {
+    "scripts": ["scriptchain.js", "background.js"],
+    "persistent": false
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "19": "seeping-links-icon-19.png",
+      "38": "seeping-links-icon-38.png"
+    }
+  },
+
+  "icons": {
+    "16": "seeping-links-icon-16.png",
+    "48": "seeping-links-icon-48.png",
+    "128": "seeping-links-icon-128.png"
+  }
+}
